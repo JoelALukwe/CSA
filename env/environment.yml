@@ -1,0 +1,17 @@
+name: cytokine-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - statsmodels
+  - pip
+  - pip:
+    - pyreadr
+    - shap
